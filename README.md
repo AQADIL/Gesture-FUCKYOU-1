@@ -1,4 +1,4 @@
-# 🤖 AI Hand Gesture Shutdown System  
+# 🤖 Hand Gesture Shutdown System  
 ### ✋ "Flip Off to Shutdown!" – A MediaPipe-Powered Safety Feature  
 
 <div align="center">
