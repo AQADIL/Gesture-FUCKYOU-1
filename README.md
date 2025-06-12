@@ -8,7 +8,7 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.7-brightgreen?logo=opencv)
 ![OS](https://img.shields.io/badge/Windows%2FLinux%2FmacOS-✔-success)
 
-![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDk2dWlqY2V5Z3R0eTZ6Y2J6N2VtbmRyb2VlYzB6ZGx4dWZ0eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orieS4jfHJaKwkeli/giphy.gif)
+![GIF]([https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDk2dWlqY2V5Z3R0eTZ6Y2J6N2VtbmRyb2VlYzB6ZGx4dWZ0eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orieS4jfHJaKwkeli/giphy.gif](https://www.google.com/url?sa=i&url=https%3A%2F%2Fjavascript.plainenglish.io%2Fbuilding-a-gif-search-engine-in-just-10-mins-3c8963af835d&psig=AOvVaw3cDLjT6x9hgAg2yqmbO2T0&ust=1749851038171000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLiwu53t7I0DFQAAAAAdAAAAABAL))
 
 </div>
 
@@ -42,3 +42,16 @@ def is_finger_up(tip_y, pip_y):
 # Thumb requires X-axis comparison (moves horizontally)
 def is_thumb_up(tip_x, pip_x, is_right_hand):
     return (tip_x > pip_x) if is_right_hand else (tip_x < pip_x)
+
+🌐 Why This Standard?
+Anatomical Consistency: Follows physical hand structure (wrist → fingertips)
+
+Mathematical Pattern: 4 landmarks per finger in sequential order
+
+Google's Convention: Same schema used across AR/VR applications
+
+🚀 Features
+✔️ Precision Tracking: 21 landmarks at 30+ FPS
+✔️ Gesture Customization: Easily add new gestures (✌️, 👍, 🤟)
+✔️ Safety Lock: Confirmation dialog before shutdown
+✔️ Cross-Platform: Works on Windows/Linux/macOS
