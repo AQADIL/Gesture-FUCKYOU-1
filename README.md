@@ -8,7 +8,7 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.7-brightgreen?logo=opencv)
 ![OS](https://img.shields.io/badge/Windows%2FLinux%2FmacOS-✔-success)
 
-![DEMO]([https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.picmix.com%2Fstamp%2FNyan-cat-2154077&psig=AOvVaw3cDLjT6x9hgAg2yqmbO2T0&ust=1749851038171000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLiwu53t7I0DFQAAAAAdAAAAABA5))
+![DEMO]([[https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.picmix.com%2Fstamp%2FNyan-cat-2154077&psig=AOvVaw3cDLjT6x9hgAg2yqmbO2T0&ust=1749851038171000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLiwu53t7I0DFQAAAAAdAAAAABA5](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjNlaGpkcGg2NW5tOXlzejhjZGV4eml2MG90cjZiaG11ODV4amthZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GeimqsH0TLDt4tScGw/giphy.gif)))
 
 </div>
 
