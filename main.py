@@ -57,17 +57,17 @@ while True:
             mp_drawing.draw_landmarks(
                 frame, hand_landmarks, mp_hands.HAND_CONNECTIONS)
 
-            # Analyze gesture
+            #analyzing here
             fingers = count_fingers(hand_landmarks.landmark)
             gesture_text = detect_gesture(fingers)
 
-            # Special reaction to inappropriate gesture
+            
             if "WARNING" in gesture_text:
                 cv2.rectangle(frame, (0, 0), (frame.shape[1], 100), (0, 0, 255), -1)
                 cv2.putText(frame, "ATTENTION! INAPPROPRIATE GESTURE!",
                             (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
 
-                # Воспроизведение звука
+                
                 if sound_loaded and not pygame.mixer.music.get_busy():
                     pygame.mixer.music.play()
                     print(" Я тебе щас палец в жопу засуну :( ")
